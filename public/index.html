@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="A tool help your child to play with homework"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <title>Twitter Publisher</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>  
+    
+    <style>
+    html, body, #app {
+      height: 100%;
+    }
+    * {
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    html {
+      overflow: hidden;
+    }
+    /* 设置滚动条样式 */
+    ::-webkit-scrollbar {
+      width: 6px; 
+      height: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 12px;
+      background-color: rgba(0, 0, 0, 0.16);
+    }
+
+    #bg-process {
+      width: 180px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.16);
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+    }
+
+    #process {
+      height: 100%;
+      border-radius: 4px;
+      transition: all 0.5s cubic-bezier(0, 0.64, 0.36, 1);
+      background-color: #150d33;
+      animation: processAnimation 5s ease forwards;
+    }
+
+    @keyframes processAnimation {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+  </head>
+  <body style="margin: 0px; font-family: Inter,Roboto,  sans-serif;">
+
+    <div id="root"></div>
+
+  </body>
+</html>

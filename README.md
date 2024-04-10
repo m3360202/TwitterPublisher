@@ -1,2 +1,2 @@
-# TwitterPublisher
-TwitterPublisher
+# paperGPT
+paperGPT for pravite
