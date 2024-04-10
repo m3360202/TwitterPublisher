@@ -5,19 +5,12 @@ import Box from '@mui/material/Box';
 import '../assets/css/main.css';
 
 import CreateBasic from '../components/CreateBasic';
-import CreateContent from '../components/CreateContent';
 import CreateTitle from '../components/CreateTitle';
-import CreateSummary from '../components/CreateSummary';
-import CreateDirectory from '../components/CreateDirectory';
-import CreateKt from '../components/CreateKt';
-import CreateThank from '../components/CreateThank';
-import CreateLinks from '../components/CreateLinks';
 import CreateSubject from '../components/CreateSubject';
 import Footer from '../components/Footer';
 import png from '../assets/img/icon.png';
 import { useActions } from '../store/uiActions';
 import { reSetAll,reSetContentChat } from '../store/paperSettings';
-import CreateLinkSummary from '../components/CreateLinksSummary';
 import { Button } from '@mui/material';
 
 export default function App(): React.JSX.Element {
